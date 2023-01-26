@@ -1,0 +1,11 @@
+[2023-01-14T17:49:27.2727+07:00] [log level = error]:
+header = {"partnerid":"df90344b-d288-44ee-a44e-4962905c7243","nonce":"2023-01-14T10:49:26.801Z","authorization":"rhPoVobZQy7z3PRQdYTXAlU2przcS98bUo0eUeOB07I=","content-type":"application/json","user-agent":"PostmanRuntime/7.30.0","accept":"*/*","postman-token":"9ff517eb-e422-4ec9-97e5-efe35a24c998","host":"localhost:3015","accept-encoding":"gzip, deflate, br","connection":"keep-alive","content-length":"368"}
+body={"request_id":"0000000000000000201","request_datetime":"2023-01-14T10:49:26.801Z","device_id":"RabbitMerchant_00700000010000100001","cashier_id":"00001","location_id":"00001","payment_channel":"THAIQR","currency":"THB","amount":"100.50","device_type":3,"notify_url":"https://gateway.api.rabbit.co.th/mockup/callback"}
+param={}
+trace=HttpException: Http Exception
+    at paymentService.paymentRequest (C:\Users\pawinb\Desktop\Payment-gateway\pgw-transaction-nestjs\src\app.service.ts:68:19)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at paymentController.payment (C:\Users\pawinb\Desktop\Payment-gateway\pgw-transaction-nestjs\src\app.controller.ts:22:12)
+    at C:\Users\pawinb\Desktop\Payment-gateway\pgw-transaction-nestjs\node_modules\@nestjs\core\router\router-execution-context.js:46:28
+    at Object.<anonymous> (C:\Users\pawinb\Desktop\Payment-gateway\pgw-transaction-nestjs\node_modules\@nestjs\core\router\router-proxy.js:9:17)
+

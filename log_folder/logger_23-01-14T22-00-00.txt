@@ -1,0 +1,11 @@
+[2023-01-14T22:51:54.5454+07:00] [log level = error]:
+header = {"user-agent":"PostmanRuntime/7.30.0","accept":"*/*","postman-token":"346a4dcd-5da8-4a42-948c-eacf919af8ab","host":"localhost:3015","accept-encoding":"gzip, deflate, br","connection":"keep-alive"}
+body=undefined
+param={}
+trace=HttpException: Http Exception
+    at BBLService.inquiry_bbl (C:\Users\pawinb\Desktop\Payment-gateway\pgw-transaction-nestjs\src\bbl\bbl.service.ts:172:13)
+    at paymentService.inquiryRequest (C:\Users\pawinb\Desktop\Payment-gateway\pgw-transaction-nestjs\src\app.service.ts:91:30)
+    at paymentController.inquiryRequest (C:\Users\pawinb\Desktop\Payment-gateway\pgw-transaction-nestjs\src\app.controller.ts:28:12)
+    at C:\Users\pawinb\Desktop\Payment-gateway\pgw-transaction-nestjs\node_modules\@nestjs\core\router\router-execution-context.js:46:28
+    at Object.<anonymous> (C:\Users\pawinb\Desktop\Payment-gateway\pgw-transaction-nestjs\node_modules\@nestjs\core\router\router-proxy.js:9:17)
+

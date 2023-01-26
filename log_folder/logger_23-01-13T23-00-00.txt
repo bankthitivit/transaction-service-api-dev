@@ -1,0 +1,266 @@
+[2023-01-13T23:20:51.5151+07:00] [log level = error]:
+header = {"partnerid":"df90344b-d288-44ee-a44e-4962905c7243","nonce":"2023-01-13T16:20:51.498Z","authorization":"QE79gFLdTIWUtkvoLyg+XMDysAUx4B++cQwlTGLyNJc=","content-type":"application/json","user-agent":"PostmanRuntime/7.30.0","accept":"*/*","postman-token":"8c2f1ee3-649c-4c3d-936b-93572abd670c","host":"localhost:3015","accept-encoding":"gzip, deflate, br","connection":"keep-alive","content-length":"366"}
+body=undefined
+param={}
+trace=BadRequestException: Expected ',' or '}' after property value in JSON at position 69
+    at RoutesResolver.mapExternalException (C:\Users\pawinb\Desktop\Payment-gateway\pgw-transaction-nestjs\node_modules\@nestjs\core\router\routes-resolver.js:100:24)
+    at callback (C:\Users\pawinb\Desktop\Payment-gateway\pgw-transaction-nestjs\node_modules\@nestjs\core\router\routes-resolver.js:86:24)
+    at Object.<anonymous> (C:\Users\pawinb\Desktop\Payment-gateway\pgw-transaction-nestjs\node_modules\@nestjs\core\router\router-proxy.js:20:23)
+    at handleError (C:\Users\pawinb\Desktop\Payment-gateway\pgw-transaction-nestjs\node_modules\@nestjs\platform-fastify\node_modules\fastify\lib\error-handler.js:64:18)
+    at onErrorHook (C:\Users\pawinb\Desktop\Payment-gateway\pgw-transaction-nestjs\node_modules\@nestjs\platform-fastify\node_modules\fastify\lib\reply.js:699:5)
+    at Reply.send (C:\Users\pawinb\Desktop\Payment-gateway\pgw-transaction-nestjs\node_modules\@nestjs\platform-fastify\node_modules\fastify\lib\reply.js:133:5)
+    at C:\Users\pawinb\Desktop\Payment-gateway\pgw-transaction-nestjs\node_modules\@nestjs\platform-fastify\node_modules\fastify\lib\contentTypeParser.js:176:15
+    at AsyncResource.runInAsyncScope (node:async_hooks:203:9)
+    at done (C:\Users\pawinb\Desktop\Payment-gateway\pgw-transaction-nestjs\node_modules\@nestjs\platform-fastify\node_modules\fastify\lib\contentTypeParser.js:173:14)
+    at defaultJsonParser (C:\Users\pawinb\Desktop\Payment-gateway\pgw-transaction-nestjs\node_modules\@nestjs\platform-fastify\node_modules\fastify\lib\contentTypeParser.js:273:14)
+
+[2023-01-13T23:21:02.022+07:00] [log level = error]:
+header = {"partnerid":"df90344b-d288-44ee-a44e-4962905c7243","nonce":"2023-01-13T16:21:02.075Z","authorization":"cm3YlvRITBFxOF9nB2D1ix09W+GcY6xA2vbuZR1i3Kg=","content-type":"application/json","user-agent":"PostmanRuntime/7.30.0","accept":"*/*","postman-token":"ceca9d7a-0f38-4bb0-a690-7d9ba7c82069","host":"localhost:3015","accept-encoding":"gzip, deflate, br","connection":"keep-alive","content-length":"366"}
+body=undefined
+param={}
+trace=BadRequestException: Expected ',' or '}' after property value in JSON at position 69
+    at RoutesResolver.mapExternalException (C:\Users\pawinb\Desktop\Payment-gateway\pgw-transaction-nestjs\node_modules\@nestjs\core\router\routes-resolver.js:100:24)
+    at callback (C:\Users\pawinb\Desktop\Payment-gateway\pgw-transaction-nestjs\node_modules\@nestjs\core\router\routes-resolver.js:86:24)
+    at Object.<anonymous> (C:\Users\pawinb\Desktop\Payment-gateway\pgw-transaction-nestjs\node_modules\@nestjs\core\router\router-proxy.js:20:23)
+    at handleError (C:\Users\pawinb\Desktop\Payment-gateway\pgw-transaction-nestjs\node_modules\@nestjs\platform-fastify\node_modules\fastify\lib\error-handler.js:64:18)
+    at onErrorHook (C:\Users\pawinb\Desktop\Payment-gateway\pgw-transaction-nestjs\node_modules\@nestjs\platform-fastify\node_modules\fastify\lib\reply.js:699:5)
+    at Reply.send (C:\Users\pawinb\Desktop\Payment-gateway\pgw-transaction-nestjs\node_modules\@nestjs\platform-fastify\node_modules\fastify\lib\reply.js:133:5)
+    at C:\Users\pawinb\Desktop\Payment-gateway\pgw-transaction-nestjs\node_modules\@nestjs\platform-fastify\node_modules\fastify\lib\contentTypeParser.js:176:15
+    at AsyncResource.runInAsyncScope (node:async_hooks:203:9)
+    at done (C:\Users\pawinb\Desktop\Payment-gateway\pgw-transaction-nestjs\node_modules\@nestjs\platform-fastify\node_modules\fastify\lib\contentTypeParser.js:173:14)
+    at defaultJsonParser (C:\Users\pawinb\Desktop\Payment-gateway\pgw-transaction-nestjs\node_modules\@nestjs\platform-fastify\node_modules\fastify\lib\contentTypeParser.js:273:14)
+
+[2023-01-13T23:21:04.044+07:00] [log level = error]:
+header = {"partnerid":"df90344b-d288-44ee-a44e-4962905c7243","nonce":"2023-01-13T16:21:04.719Z","authorization":"pasX3SQZ9Emih7lhBUgkt7S9riedq22Ea//nivsMYv0=","content-type":"application/json","user-agent":"PostmanRuntime/7.30.0","accept":"*/*","postman-token":"cd592ea0-6f30-47c0-b1cb-013fc749c2a1","host":"localhost:3015","accept-encoding":"gzip, deflate, br","connection":"keep-alive","content-length":"366"}
+body=undefined
+param={}
+trace=BadRequestException: Expected ',' or '}' after property value in JSON at position 69
+    at RoutesResolver.mapExternalException (C:\Users\pawinb\Desktop\Payment-gateway\pgw-transaction-nestjs\node_modules\@nestjs\core\router\routes-resolver.js:100:24)
+    at callback (C:\Users\pawinb\Desktop\Payment-gateway\pgw-transaction-nestjs\node_modules\@nestjs\core\router\routes-resolver.js:86:24)
+    at Object.<anonymous> (C:\Users\pawinb\Desktop\Payment-gateway\pgw-transaction-nestjs\node_modules\@nestjs\core\router\router-proxy.js:20:23)
+    at handleError (C:\Users\pawinb\Desktop\Payment-gateway\pgw-transaction-nestjs\node_modules\@nestjs\platform-fastify\node_modules\fastify\lib\error-handler.js:64:18)
+    at onErrorHook (C:\Users\pawinb\Desktop\Payment-gateway\pgw-transaction-nestjs\node_modules\@nestjs\platform-fastify\node_modules\fastify\lib\reply.js:699:5)
+    at Reply.send (C:\Users\pawinb\Desktop\Payment-gateway\pgw-transaction-nestjs\node_modules\@nestjs\platform-fastify\node_modules\fastify\lib\reply.js:133:5)
+    at C:\Users\pawinb\Desktop\Payment-gateway\pgw-transaction-nestjs\node_modules\@nestjs\platform-fastify\node_modules\fastify\lib\contentTypeParser.js:176:15
+    at AsyncResource.runInAsyncScope (node:async_hooks:203:9)
+    at done (C:\Users\pawinb\Desktop\Payment-gateway\pgw-transaction-nestjs\node_modules\@nestjs\platform-fastify\node_modules\fastify\lib\contentTypeParser.js:173:14)
+    at defaultJsonParser (C:\Users\pawinb\Desktop\Payment-gateway\pgw-transaction-nestjs\node_modules\@nestjs\platform-fastify\node_modules\fastify\lib\contentTypeParser.js:273:14)
+
+[2023-01-13T23:21:30.3030+07:00] [log level = error]:
+header = {"partnerid":"997dbfae-d078-42ea-94b7-7a51f8a6359a","nonce":"2022-12-06T12:30:00+07:00","authorization":"mbMGQ/Cri9SJrfLe/Z9Va5Wp0uTTFIvVjcc9V77q2fo=","content-type":"application/json","user-agent":"PostmanRuntime/7.30.0","accept":"*/*","postman-token":"96eb95a9-d358-4b27-a428-3fa5df36bd33","host":"localhost:3015","accept-encoding":"gzip, deflate, br","connection":"keep-alive","content-length":"742"}
+body={"request_id":"00000000000000000001","request_datetime":"2007-04-05T12:30:00+07:00","device_id":"RabbitMerchant_00700000010000100001","cashier_id":"00001","package_description":{"name":"package_test_item_Locker_ari_001&002","product_description":[{"id":"Locker0000000100001","name":"BKK-Locker-BTS-Ari2","quantity":2,"image_url":"https://thechinaproject.com/wp-content/uploads/2020/06/Screen-Shot-2020-05-11-at-11.59.19-AM.png","price":"52"}]},"payment_channel":"RabbitLinePay","currency":"THB","amount":"5200","device_type":1,"notify_url":"https://gateway.api.rabbit.co.th/mockup/callback"}
+param={"*":"v1/merchant/transaction/getqr"}
+trace=NotFoundException: Cannot POST /v1/merchant/transaction/getqr
+    at callback (C:\Users\pawinb\Desktop\Payment-gateway\pgw-transaction-nestjs\node_modules\@nestjs\core\router\routes-resolver.js:77:19)
+    at Object.<anonymous> (C:\Users\pawinb\Desktop\Payment-gateway\pgw-transaction-nestjs\node_modules\@nestjs\core\router\router-proxy.js:9:23)
+    at preHandlerCallback (C:\Users\pawinb\Desktop\Payment-gateway\pgw-transaction-nestjs\node_modules\@nestjs\platform-fastify\node_modules\fastify\lib\handleRequest.js:128:37)
+    at preValidationCallback (C:\Users\pawinb\Desktop\Payment-gateway\pgw-transaction-nestjs\node_modules\@nestjs\platform-fastify\node_modules\fastify\lib\handleRequest.js:112:5)
+    at handler (C:\Users\pawinb\Desktop\Payment-gateway\pgw-transaction-nestjs\node_modules\@nestjs\platform-fastify\node_modules\fastify\lib\handleRequest.js:76:7)
+    at C:\Users\pawinb\Desktop\Payment-gateway\pgw-transaction-nestjs\node_modules\@nestjs\platform-fastify\node_modules\fastify\lib\contentTypeParser.js:179:9
+    at AsyncResource.runInAsyncScope (node:async_hooks:203:9)
+    at done (C:\Users\pawinb\Desktop\Payment-gateway\pgw-transaction-nestjs\node_modules\@nestjs\platform-fastify\node_modules\fastify\lib\contentTypeParser.js:173:14)
+    at defaultJsonParser (C:\Users\pawinb\Desktop\Payment-gateway\pgw-transaction-nestjs\node_modules\@nestjs\platform-fastify\node_modules\fastify\lib\contentTypeParser.js:275:5)
+    at Parser.fn (C:\Users\pawinb\Desktop\Payment-gateway\pgw-transaction-nestjs\node_modules\@nestjs\platform-fastify\adapters\fastify-adapter.js:287:13)
+
+[2023-01-13T23:21:32.3232+07:00] [log level = error]:
+header = {"partnerid":"997dbfae-d078-42ea-94b7-7a51f8a6359a","nonce":"2022-12-06T12:30:00+07:00","authorization":"mbMGQ/Cri9SJrfLe/Z9Va5Wp0uTTFIvVjcc9V77q2fo=","content-type":"application/json","user-agent":"PostmanRuntime/7.30.0","accept":"*/*","postman-token":"958ebba0-6f6a-4a04-b476-21e1199640d4","host":"localhost:3015","accept-encoding":"gzip, deflate, br","connection":"keep-alive","content-length":"742"}
+body={"request_id":"00000000000000000001","request_datetime":"2007-04-05T12:30:00+07:00","device_id":"RabbitMerchant_00700000010000100001","cashier_id":"00001","package_description":{"name":"package_test_item_Locker_ari_001&002","product_description":[{"id":"Locker0000000100001","name":"BKK-Locker-BTS-Ari2","quantity":2,"image_url":"https://thechinaproject.com/wp-content/uploads/2020/06/Screen-Shot-2020-05-11-at-11.59.19-AM.png","price":"52"}]},"payment_channel":"RabbitLinePay","currency":"THB","amount":"5200","device_type":1,"notify_url":"https://gateway.api.rabbit.co.th/mockup/callback"}
+param={"*":"v1/merchant/transaction/getqr"}
+trace=NotFoundException: Cannot POST /v1/merchant/transaction/getqr
+    at callback (C:\Users\pawinb\Desktop\Payment-gateway\pgw-transaction-nestjs\node_modules\@nestjs\core\router\routes-resolver.js:77:19)
+    at Object.<anonymous> (C:\Users\pawinb\Desktop\Payment-gateway\pgw-transaction-nestjs\node_modules\@nestjs\core\router\router-proxy.js:9:23)
+    at preHandlerCallback (C:\Users\pawinb\Desktop\Payment-gateway\pgw-transaction-nestjs\node_modules\@nestjs\platform-fastify\node_modules\fastify\lib\handleRequest.js:128:37)
+    at preValidationCallback (C:\Users\pawinb\Desktop\Payment-gateway\pgw-transaction-nestjs\node_modules\@nestjs\platform-fastify\node_modules\fastify\lib\handleRequest.js:112:5)
+    at handler (C:\Users\pawinb\Desktop\Payment-gateway\pgw-transaction-nestjs\node_modules\@nestjs\platform-fastify\node_modules\fastify\lib\handleRequest.js:76:7)
+    at C:\Users\pawinb\Desktop\Payment-gateway\pgw-transaction-nestjs\node_modules\@nestjs\platform-fastify\node_modules\fastify\lib\contentTypeParser.js:179:9
+    at AsyncResource.runInAsyncScope (node:async_hooks:203:9)
+    at done (C:\Users\pawinb\Desktop\Payment-gateway\pgw-transaction-nestjs\node_modules\@nestjs\platform-fastify\node_modules\fastify\lib\contentTypeParser.js:173:14)
+    at defaultJsonParser (C:\Users\pawinb\Desktop\Payment-gateway\pgw-transaction-nestjs\node_modules\@nestjs\platform-fastify\node_modules\fastify\lib\contentTypeParser.js:275:5)
+    at Parser.fn (C:\Users\pawinb\Desktop\Payment-gateway\pgw-transaction-nestjs\node_modules\@nestjs\platform-fastify\adapters\fastify-adapter.js:287:13)
+
+[2023-01-13T23:21:41.4141+07:00] [log level = error]:
+header = {"partnerid":"997dbfae-d078-42ea-94b7-7a51f8a6359a","nonce":"2022-12-06T12:30:00+07:00","authorization":"mbMGQ/Cri9SJrfLe/Z9Va5Wp0uTTFIvVjcc9V77q2fo=","content-type":"application/json","user-agent":"PostmanRuntime/7.30.0","accept":"*/*","postman-token":"390404c0-b6c9-4497-a5d3-2fb66b0dd3bc","host":"localhost:3015","accept-encoding":"gzip, deflate, br","connection":"keep-alive","content-length":"742"}
+body={"request_id":"00000000000000000001","request_datetime":"2007-04-05T12:30:00+07:00","device_id":"RabbitMerchant_00700000010000100001","cashier_id":"00001","package_description":{"name":"package_test_item_Locker_ari_001&002","product_description":[{"id":"Locker0000000100001","name":"BKK-Locker-BTS-Ari2","quantity":2,"image_url":"https://thechinaproject.com/wp-content/uploads/2020/06/Screen-Shot-2020-05-11-at-11.59.19-AM.png","price":"52"}]},"payment_channel":"RabbitLinePay","currency":"THB","amount":"5200","device_type":1,"notify_url":"https://gateway.api.rabbit.co.th/mockup/callback"}
+param={}
+trace=BadRequestException: Bad Request Exception
+    at ValidationPipe.exceptionFactory (C:\Users\pawinb\Desktop\Payment-gateway\pgw-transaction-nestjs\node_modules\@nestjs\common\pipes\validation.pipe.js:90:20)
+    at ValidationPipe.transform (C:\Users\pawinb\Desktop\Payment-gateway\pgw-transaction-nestjs\node_modules\@nestjs\common\pipes\validation.pipe.js:66:30)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at resolveParamValue (C:\Users\pawinb\Desktop\Payment-gateway\pgw-transaction-nestjs\node_modules\@nestjs\core\router\router-execution-context.js:147:23)
+    at async Promise.all (index 1)
+    at pipesFn (C:\Users\pawinb\Desktop\Payment-gateway\pgw-transaction-nestjs\node_modules\@nestjs\core\router\router-execution-context.js:150:13)
+    at C:\Users\pawinb\Desktop\Payment-gateway\pgw-transaction-nestjs\node_modules\@nestjs\core\router\router-execution-context.js:37:30
+    at C:\Users\pawinb\Desktop\Payment-gateway\pgw-transaction-nestjs\node_modules\@nestjs\core\router\router-execution-context.js:46:28
+    at Object.<anonymous> (C:\Users\pawinb\Desktop\Payment-gateway\pgw-transaction-nestjs\node_modules\@nestjs\core\router\router-proxy.js:9:17)
+
+[2023-01-13T23:22:03.033+07:00] [log level = error]:
+header = {"partnerid":"997dbfae-d078-42ea-94b7-7a51f8a6359a","nonce":"2022-12-06T12:30:00+07:00","authorization":"mbMGQ/Cri9SJrfLe/Z9Va5Wp0uTTFIvVjcc9V77q2fo=","content-type":"application/json","user-agent":"PostmanRuntime/7.30.0","accept":"*/*","postman-token":"c9b08632-35e7-48b6-9803-f0b794bcf68e","host":"localhost:3015","accept-encoding":"gzip, deflate, br","connection":"keep-alive","content-length":"739"}
+body=undefined
+param={}
+trace=BadRequestException: Expected ',' or '}' after property value in JSON at position 70
+    at RoutesResolver.mapExternalException (C:\Users\pawinb\Desktop\Payment-gateway\pgw-transaction-nestjs\node_modules\@nestjs\core\router\routes-resolver.js:100:24)
+    at callback (C:\Users\pawinb\Desktop\Payment-gateway\pgw-transaction-nestjs\node_modules\@nestjs\core\router\routes-resolver.js:86:24)
+    at Object.<anonymous> (C:\Users\pawinb\Desktop\Payment-gateway\pgw-transaction-nestjs\node_modules\@nestjs\core\router\router-proxy.js:20:23)
+    at handleError (C:\Users\pawinb\Desktop\Payment-gateway\pgw-transaction-nestjs\node_modules\@nestjs\platform-fastify\node_modules\fastify\lib\error-handler.js:64:18)
+    at onErrorHook (C:\Users\pawinb\Desktop\Payment-gateway\pgw-transaction-nestjs\node_modules\@nestjs\platform-fastify\node_modules\fastify\lib\reply.js:699:5)
+    at Reply.send (C:\Users\pawinb\Desktop\Payment-gateway\pgw-transaction-nestjs\node_modules\@nestjs\platform-fastify\node_modules\fastify\lib\reply.js:133:5)
+    at C:\Users\pawinb\Desktop\Payment-gateway\pgw-transaction-nestjs\node_modules\@nestjs\platform-fastify\node_modules\fastify\lib\contentTypeParser.js:176:15
+    at AsyncResource.runInAsyncScope (node:async_hooks:203:9)
+    at done (C:\Users\pawinb\Desktop\Payment-gateway\pgw-transaction-nestjs\node_modules\@nestjs\platform-fastify\node_modules\fastify\lib\contentTypeParser.js:173:14)
+    at defaultJsonParser (C:\Users\pawinb\Desktop\Payment-gateway\pgw-transaction-nestjs\node_modules\@nestjs\platform-fastify\node_modules\fastify\lib\contentTypeParser.js:273:14)
+
+[2023-01-13T23:22:59.5959+07:00] [log level = error]:
+header = {"partnerid":"997dbfae-d078-42ea-94b7-7a51f8a6359a","nonce":"2023-01-13T16:22:59.291Z","authorization":"eGs3XPlEh04YU6+P9NEQIaoEx5ohhdO5FDaJ8NI379I=","content-type":"application/json","user-agent":"PostmanRuntime/7.30.0","accept":"*/*","postman-token":"8ae0fa5e-3d53-497a-9f4f-7bfcce1029dd","host":"localhost:3015","accept-encoding":"gzip, deflate, br","connection":"keep-alive","content-length":"739"}
+body=undefined
+param={}
+trace=BadRequestException: Expected ',' or '}' after property value in JSON at position 70
+    at RoutesResolver.mapExternalException (C:\Users\pawinb\Desktop\Payment-gateway\pgw-transaction-nestjs\node_modules\@nestjs\core\router\routes-resolver.js:100:24)
+    at callback (C:\Users\pawinb\Desktop\Payment-gateway\pgw-transaction-nestjs\node_modules\@nestjs\core\router\routes-resolver.js:86:24)
+    at Object.<anonymous> (C:\Users\pawinb\Desktop\Payment-gateway\pgw-transaction-nestjs\node_modules\@nestjs\core\router\router-proxy.js:20:23)
+    at handleError (C:\Users\pawinb\Desktop\Payment-gateway\pgw-transaction-nestjs\node_modules\@nestjs\platform-fastify\node_modules\fastify\lib\error-handler.js:64:18)
+    at onErrorHook (C:\Users\pawinb\Desktop\Payment-gateway\pgw-transaction-nestjs\node_modules\@nestjs\platform-fastify\node_modules\fastify\lib\reply.js:699:5)
+    at Reply.send (C:\Users\pawinb\Desktop\Payment-gateway\pgw-transaction-nestjs\node_modules\@nestjs\platform-fastify\node_modules\fastify\lib\reply.js:133:5)
+    at C:\Users\pawinb\Desktop\Payment-gateway\pgw-transaction-nestjs\node_modules\@nestjs\platform-fastify\node_modules\fastify\lib\contentTypeParser.js:176:15
+    at AsyncResource.runInAsyncScope (node:async_hooks:203:9)
+    at done (C:\Users\pawinb\Desktop\Payment-gateway\pgw-transaction-nestjs\node_modules\@nestjs\platform-fastify\node_modules\fastify\lib\contentTypeParser.js:173:14)
+    at defaultJsonParser (C:\Users\pawinb\Desktop\Payment-gateway\pgw-transaction-nestjs\node_modules\@nestjs\platform-fastify\node_modules\fastify\lib\contentTypeParser.js:273:14)
+
+[2023-01-13T23:23:14.1414+07:00] [log level = error]:
+header = {"partnerid":"997dbfae-d078-42ea-94b7-7a51f8a6359a","nonce":"2023-01-13T16:23:14.024Z","authorization":"HgSTgTdxMHqd4YB86ecSqlhzZbXyP3ZmmL49RmLUrJs=","content-type":"application/json","user-agent":"PostmanRuntime/7.30.0","accept":"*/*","postman-token":"ca2bc543-9c96-4955-9410-698e6cb676b3","host":"localhost:3015","accept-encoding":"gzip, deflate, br","connection":"keep-alive","content-length":"739"}
+body=undefined
+param={}
+trace=BadRequestException: Expected ',' or '}' after property value in JSON at position 70
+    at RoutesResolver.mapExternalException (C:\Users\pawinb\Desktop\Payment-gateway\pgw-transaction-nestjs\node_modules\@nestjs\core\router\routes-resolver.js:100:24)
+    at callback (C:\Users\pawinb\Desktop\Payment-gateway\pgw-transaction-nestjs\node_modules\@nestjs\core\router\routes-resolver.js:86:24)
+    at Object.<anonymous> (C:\Users\pawinb\Desktop\Payment-gateway\pgw-transaction-nestjs\node_modules\@nestjs\core\router\router-proxy.js:20:23)
+    at handleError (C:\Users\pawinb\Desktop\Payment-gateway\pgw-transaction-nestjs\node_modules\@nestjs\platform-fastify\node_modules\fastify\lib\error-handler.js:64:18)
+    at onErrorHook (C:\Users\pawinb\Desktop\Payment-gateway\pgw-transaction-nestjs\node_modules\@nestjs\platform-fastify\node_modules\fastify\lib\reply.js:699:5)
+    at Reply.send (C:\Users\pawinb\Desktop\Payment-gateway\pgw-transaction-nestjs\node_modules\@nestjs\platform-fastify\node_modules\fastify\lib\reply.js:133:5)
+    at C:\Users\pawinb\Desktop\Payment-gateway\pgw-transaction-nestjs\node_modules\@nestjs\platform-fastify\node_modules\fastify\lib\contentTypeParser.js:176:15
+    at AsyncResource.runInAsyncScope (node:async_hooks:203:9)
+    at done (C:\Users\pawinb\Desktop\Payment-gateway\pgw-transaction-nestjs\node_modules\@nestjs\platform-fastify\node_modules\fastify\lib\contentTypeParser.js:173:14)
+    at defaultJsonParser (C:\Users\pawinb\Desktop\Payment-gateway\pgw-transaction-nestjs\node_modules\@nestjs\platform-fastify\node_modules\fastify\lib\contentTypeParser.js:273:14)
+
+[2023-01-13T23:23:16.1616+07:00] [log level = error]:
+header = {"partnerid":"997dbfae-d078-42ea-94b7-7a51f8a6359a","nonce":"2023-01-13T16:23:16.333Z","authorization":"wZS0X8QqZvTPP97EukqxPNBL65sgZ7GAUdJBCyAaKGw=","content-type":"application/json","user-agent":"PostmanRuntime/7.30.0","accept":"*/*","postman-token":"2ad977d7-244c-474c-b77e-784a06c3d483","host":"localhost:3015","accept-encoding":"gzip, deflate, br","connection":"keep-alive","content-length":"739"}
+body=undefined
+param={}
+trace=BadRequestException: Expected ',' or '}' after property value in JSON at position 70
+    at RoutesResolver.mapExternalException (C:\Users\pawinb\Desktop\Payment-gateway\pgw-transaction-nestjs\node_modules\@nestjs\core\router\routes-resolver.js:100:24)
+    at callback (C:\Users\pawinb\Desktop\Payment-gateway\pgw-transaction-nestjs\node_modules\@nestjs\core\router\routes-resolver.js:86:24)
+    at Object.<anonymous> (C:\Users\pawinb\Desktop\Payment-gateway\pgw-transaction-nestjs\node_modules\@nestjs\core\router\router-proxy.js:20:23)
+    at handleError (C:\Users\pawinb\Desktop\Payment-gateway\pgw-transaction-nestjs\node_modules\@nestjs\platform-fastify\node_modules\fastify\lib\error-handler.js:64:18)
+    at onErrorHook (C:\Users\pawinb\Desktop\Payment-gateway\pgw-transaction-nestjs\node_modules\@nestjs\platform-fastify\node_modules\fastify\lib\reply.js:699:5)
+    at Reply.send (C:\Users\pawinb\Desktop\Payment-gateway\pgw-transaction-nestjs\node_modules\@nestjs\platform-fastify\node_modules\fastify\lib\reply.js:133:5)
+    at C:\Users\pawinb\Desktop\Payment-gateway\pgw-transaction-nestjs\node_modules\@nestjs\platform-fastify\node_modules\fastify\lib\contentTypeParser.js:176:15
+    at AsyncResource.runInAsyncScope (node:async_hooks:203:9)
+    at done (C:\Users\pawinb\Desktop\Payment-gateway\pgw-transaction-nestjs\node_modules\@nestjs\platform-fastify\node_modules\fastify\lib\contentTypeParser.js:173:14)
+    at defaultJsonParser (C:\Users\pawinb\Desktop\Payment-gateway\pgw-transaction-nestjs\node_modules\@nestjs\platform-fastify\node_modules\fastify\lib\contentTypeParser.js:273:14)
+
+[2023-01-13T23:23:46.4646+07:00] [log level = error]:
+header = {"partnerid":"df90344b-d288-44ee-a44e-4962905c7243","nonce":"2023-01-13T16:23:46.241Z","authorization":"DNX9X59pg/Li5WVBcyJ9U+jC6Ci66LMOEjjfVvymHGI=","content-type":"application/json","user-agent":"PostmanRuntime/7.30.0","accept":"*/*","postman-token":"1c94eab8-49f7-402e-aa0d-a67b08c91663","host":"localhost:3015","accept-encoding":"gzip, deflate, br","connection":"keep-alive","content-length":"366"}
+body=undefined
+param={}
+trace=BadRequestException: Expected ',' or '}' after property value in JSON at position 69
+    at RoutesResolver.mapExternalException (C:\Users\pawinb\Desktop\Payment-gateway\pgw-transaction-nestjs\node_modules\@nestjs\core\router\routes-resolver.js:100:24)
+    at callback (C:\Users\pawinb\Desktop\Payment-gateway\pgw-transaction-nestjs\node_modules\@nestjs\core\router\routes-resolver.js:86:24)
+    at Object.<anonymous> (C:\Users\pawinb\Desktop\Payment-gateway\pgw-transaction-nestjs\node_modules\@nestjs\core\router\router-proxy.js:20:23)
+    at handleError (C:\Users\pawinb\Desktop\Payment-gateway\pgw-transaction-nestjs\node_modules\@nestjs\platform-fastify\node_modules\fastify\lib\error-handler.js:64:18)
+    at onErrorHook (C:\Users\pawinb\Desktop\Payment-gateway\pgw-transaction-nestjs\node_modules\@nestjs\platform-fastify\node_modules\fastify\lib\reply.js:699:5)
+    at Reply.send (C:\Users\pawinb\Desktop\Payment-gateway\pgw-transaction-nestjs\node_modules\@nestjs\platform-fastify\node_modules\fastify\lib\reply.js:133:5)
+    at C:\Users\pawinb\Desktop\Payment-gateway\pgw-transaction-nestjs\node_modules\@nestjs\platform-fastify\node_modules\fastify\lib\contentTypeParser.js:176:15
+    at AsyncResource.runInAsyncScope (node:async_hooks:203:9)
+    at done (C:\Users\pawinb\Desktop\Payment-gateway\pgw-transaction-nestjs\node_modules\@nestjs\platform-fastify\node_modules\fastify\lib\contentTypeParser.js:173:14)
+    at defaultJsonParser (C:\Users\pawinb\Desktop\Payment-gateway\pgw-transaction-nestjs\node_modules\@nestjs\platform-fastify\node_modules\fastify\lib\contentTypeParser.js:273:14)
+
+[2023-01-13T23:24:10.1010+07:00] [log level = error]:
+header = {"partnerid":"df90344b-d288-44ee-a44e-4962905c7243","nonce":"2023-01-13T16:24:10.123Z","authorization":"cXjPES9YDZjZjgosmI1fITzkW4MedJrD7Sl+xGUq3/o=","content-type":"application/json","user-agent":"PostmanRuntime/7.30.0","accept":"*/*","postman-token":"fdec296c-6066-4e72-99cb-de16a57379c1","host":"localhost:3015","accept-encoding":"gzip, deflate, br","connection":"keep-alive","content-length":"366"}
+body=undefined
+param={}
+trace=BadRequestException: Expected ',' or '}' after property value in JSON at position 69
+    at RoutesResolver.mapExternalException (C:\Users\pawinb\Desktop\Payment-gateway\pgw-transaction-nestjs\node_modules\@nestjs\core\router\routes-resolver.js:100:24)
+    at callback (C:\Users\pawinb\Desktop\Payment-gateway\pgw-transaction-nestjs\node_modules\@nestjs\core\router\routes-resolver.js:86:24)
+    at Object.<anonymous> (C:\Users\pawinb\Desktop\Payment-gateway\pgw-transaction-nestjs\node_modules\@nestjs\core\router\router-proxy.js:20:23)
+    at handleError (C:\Users\pawinb\Desktop\Payment-gateway\pgw-transaction-nestjs\node_modules\@nestjs\platform-fastify\node_modules\fastify\lib\error-handler.js:64:18)
+    at onErrorHook (C:\Users\pawinb\Desktop\Payment-gateway\pgw-transaction-nestjs\node_modules\@nestjs\platform-fastify\node_modules\fastify\lib\reply.js:699:5)
+    at Reply.send (C:\Users\pawinb\Desktop\Payment-gateway\pgw-transaction-nestjs\node_modules\@nestjs\platform-fastify\node_modules\fastify\lib\reply.js:133:5)
+    at C:\Users\pawinb\Desktop\Payment-gateway\pgw-transaction-nestjs\node_modules\@nestjs\platform-fastify\node_modules\fastify\lib\contentTypeParser.js:176:15
+    at AsyncResource.runInAsyncScope (node:async_hooks:203:9)
+    at done (C:\Users\pawinb\Desktop\Payment-gateway\pgw-transaction-nestjs\node_modules\@nestjs\platform-fastify\node_modules\fastify\lib\contentTypeParser.js:173:14)
+    at defaultJsonParser (C:\Users\pawinb\Desktop\Payment-gateway\pgw-transaction-nestjs\node_modules\@nestjs\platform-fastify\node_modules\fastify\lib\contentTypeParser.js:273:14)
+
+[2023-01-13T23:24:11.1111+07:00] [log level = error]:
+header = {"partnerid":"df90344b-d288-44ee-a44e-4962905c7243","nonce":"2023-01-13T16:24:11.391Z","authorization":"tciA3WbxfApeKeUQq0T/+1/THKIJVPKQGXHcsoN6SrQ=","content-type":"application/json","user-agent":"PostmanRuntime/7.30.0","accept":"*/*","postman-token":"01b5853f-84a7-4ee4-8204-32a8dca4426b","host":"localhost:3015","accept-encoding":"gzip, deflate, br","connection":"keep-alive","content-length":"366"}
+body=undefined
+param={}
+trace=BadRequestException: Expected ',' or '}' after property value in JSON at position 69
+    at RoutesResolver.mapExternalException (C:\Users\pawinb\Desktop\Payment-gateway\pgw-transaction-nestjs\node_modules\@nestjs\core\router\routes-resolver.js:100:24)
+    at callback (C:\Users\pawinb\Desktop\Payment-gateway\pgw-transaction-nestjs\node_modules\@nestjs\core\router\routes-resolver.js:86:24)
+    at Object.<anonymous> (C:\Users\pawinb\Desktop\Payment-gateway\pgw-transaction-nestjs\node_modules\@nestjs\core\router\router-proxy.js:20:23)
+    at handleError (C:\Users\pawinb\Desktop\Payment-gateway\pgw-transaction-nestjs\node_modules\@nestjs\platform-fastify\node_modules\fastify\lib\error-handler.js:64:18)
+    at onErrorHook (C:\Users\pawinb\Desktop\Payment-gateway\pgw-transaction-nestjs\node_modules\@nestjs\platform-fastify\node_modules\fastify\lib\reply.js:699:5)
+    at Reply.send (C:\Users\pawinb\Desktop\Payment-gateway\pgw-transaction-nestjs\node_modules\@nestjs\platform-fastify\node_modules\fastify\lib\reply.js:133:5)
+    at C:\Users\pawinb\Desktop\Payment-gateway\pgw-transaction-nestjs\node_modules\@nestjs\platform-fastify\node_modules\fastify\lib\contentTypeParser.js:176:15
+    at AsyncResource.runInAsyncScope (node:async_hooks:203:9)
+    at done (C:\Users\pawinb\Desktop\Payment-gateway\pgw-transaction-nestjs\node_modules\@nestjs\platform-fastify\node_modules\fastify\lib\contentTypeParser.js:173:14)
+    at defaultJsonParser (C:\Users\pawinb\Desktop\Payment-gateway\pgw-transaction-nestjs\node_modules\@nestjs\platform-fastify\node_modules\fastify\lib\contentTypeParser.js:273:14)
+
+[2023-01-13T23:24:40.4040+07:00] [log level = error]:
+header = {"partnerid":"df90344b-d288-44ee-a44e-4962905c7243","nonce":"2023-01-13T16:24:40.402Z","authorization":"N3HaLMpkWZMoofaN3DjSL3QZOVfDPFHo1ZO7cm3+1XE=","content-type":"application/json","user-agent":"PostmanRuntime/7.30.0","accept":"*/*","postman-token":"fed2fcd9-5f29-4659-be88-0e9f224da94c","host":"localhost:3015","accept-encoding":"gzip, deflate, br","connection":"keep-alive","content-length":"43"}
+body={"request_id":"0000000000000000201"}
+param={}
+trace=BadRequestException: Bad Request Exception
+    at ValidationPipe.exceptionFactory (C:\Users\pawinb\Desktop\Payment-gateway\pgw-transaction-nestjs\node_modules\@nestjs\common\pipes\validation.pipe.js:90:20)
+    at ValidationPipe.transform (C:\Users\pawinb\Desktop\Payment-gateway\pgw-transaction-nestjs\node_modules\@nestjs\common\pipes\validation.pipe.js:66:30)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at resolveParamValue (C:\Users\pawinb\Desktop\Payment-gateway\pgw-transaction-nestjs\node_modules\@nestjs\core\router\router-execution-context.js:147:23)
+    at async Promise.all (index 1)
+    at pipesFn (C:\Users\pawinb\Desktop\Payment-gateway\pgw-transaction-nestjs\node_modules\@nestjs\core\router\router-execution-context.js:150:13)
+    at C:\Users\pawinb\Desktop\Payment-gateway\pgw-transaction-nestjs\node_modules\@nestjs\core\router\router-execution-context.js:37:30
+    at C:\Users\pawinb\Desktop\Payment-gateway\pgw-transaction-nestjs\node_modules\@nestjs\core\router\router-execution-context.js:46:28
+    at Object.<anonymous> (C:\Users\pawinb\Desktop\Payment-gateway\pgw-transaction-nestjs\node_modules\@nestjs\core\router\router-proxy.js:9:17)
+
+[2023-01-13T23:24:48.4848+07:00] [log level = error]:
+header = {"partnerid":"df90344b-d288-44ee-a44e-4962905c7243","nonce":"2023-01-13T16:24:48.949Z","authorization":"s0h0W2PmVmKF8mXxKkGIPv+yq2qOXJyJp2pDq1AKD+Y=","content-type":"application/json","user-agent":"PostmanRuntime/7.30.0","accept":"*/*","postman-token":"816c3d0d-482a-4062-8950-0f66254efd93","host":"localhost:3015","accept-encoding":"gzip, deflate, br","connection":"keep-alive","content-length":"235"}
+body=undefined
+param={}
+trace=BadRequestException: Expected ',' or '}' after property value in JSON at position 69
+    at RoutesResolver.mapExternalException (C:\Users\pawinb\Desktop\Payment-gateway\pgw-transaction-nestjs\node_modules\@nestjs\core\router\routes-resolver.js:100:24)
+    at callback (C:\Users\pawinb\Desktop\Payment-gateway\pgw-transaction-nestjs\node_modules\@nestjs\core\router\routes-resolver.js:86:24)
+    at Object.<anonymous> (C:\Users\pawinb\Desktop\Payment-gateway\pgw-transaction-nestjs\node_modules\@nestjs\core\router\router-proxy.js:20:23)
+    at handleError (C:\Users\pawinb\Desktop\Payment-gateway\pgw-transaction-nestjs\node_modules\@nestjs\platform-fastify\node_modules\fastify\lib\error-handler.js:64:18)
+    at onErrorHook (C:\Users\pawinb\Desktop\Payment-gateway\pgw-transaction-nestjs\node_modules\@nestjs\platform-fastify\node_modules\fastify\lib\reply.js:699:5)
+    at Reply.send (C:\Users\pawinb\Desktop\Payment-gateway\pgw-transaction-nestjs\node_modules\@nestjs\platform-fastify\node_modules\fastify\lib\reply.js:133:5)
+    at C:\Users\pawinb\Desktop\Payment-gateway\pgw-transaction-nestjs\node_modules\@nestjs\platform-fastify\node_modules\fastify\lib\contentTypeParser.js:176:15
+    at AsyncResource.runInAsyncScope (node:async_hooks:203:9)
+    at done (C:\Users\pawinb\Desktop\Payment-gateway\pgw-transaction-nestjs\node_modules\@nestjs\platform-fastify\node_modules\fastify\lib\contentTypeParser.js:173:14)
+    at defaultJsonParser (C:\Users\pawinb\Desktop\Payment-gateway\pgw-transaction-nestjs\node_modules\@nestjs\platform-fastify\node_modules\fastify\lib\contentTypeParser.js:273:14)
+
+[2023-01-13T23:25:17.1717+07:00] [log level = error]:
+header = {"partnerid":"997dbfae-d078-42ea-94b7-7a51f8a6359a","nonce":"2023-01-13T16:25:17.457Z","authorization":"4dFhrT/bTJBRZXuwMbWuczr3+AemL5LK7z9FJKTEusw=","content-type":"application/json","user-agent":"PostmanRuntime/7.30.0","accept":"*/*","postman-token":"9d7a0313-55db-4af3-af75-26f6c187d261","host":"localhost:3015","accept-encoding":"gzip, deflate, br","connection":"keep-alive","content-length":"741"}
+body={"request_id":"00000000000000000001","request_datetime":"2023-01-13T16:25:17.457Z","device_id":"RabbitMerchant_00700000010000100001","cashier_id":"00001","package_description":{"name":"package_test_item_Locker_ari_001&002","product_description":[{"id":"Locker0000000100001","name":"BKK-Locker-BTS-Ari2","quantity":2,"image_url":"https://thechinaproject.com/wp-content/uploads/2020/06/Screen-Shot-2020-05-11-at-11.59.19-AM.png","price":"52"}]},"payment_channel":"RabbitLinePay","currency":"THB","amount":"5200","device_type":1,"notify_url":"https://gateway.api.rabbit.co.th/mockup/callback"}
+param={}
+trace=HttpException: Http Exception
+    at AuthenticationService.hmac_auth_permission (C:\Users\pawinb\Desktop\Payment-gateway\pgw-transaction-nestjs\src\authentication\authentication.service.ts:21:19)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at paymentService.paymentRequest (C:\Users\pawinb\Desktop\Payment-gateway\pgw-transaction-nestjs\src\app.service.ts:45:9)
+    at paymentController.payment (C:\Users\pawinb\Desktop\Payment-gateway\pgw-transaction-nestjs\src\app.controller.ts:22:12)
+    at C:\Users\pawinb\Desktop\Payment-gateway\pgw-transaction-nestjs\node_modules\@nestjs\core\router\router-execution-context.js:46:28
+    at Object.<anonymous> (C:\Users\pawinb\Desktop\Payment-gateway\pgw-transaction-nestjs\node_modules\@nestjs\core\router\router-proxy.js:9:17)
+
+[2023-01-13T23:25:47.4747+07:00] [log level = error]:
+header = {"partnerid":"df90344b-d288-44ee-a44e-4962905c7243","nonce":"2023-01-13T16:25:47.728Z","authorization":"EAU9NZzaysIniqWGyMCpR2KsY9L8EUorK1IRUeYa7lM=","content-type":"application/json","user-agent":"PostmanRuntime/7.30.0","accept":"*/*","postman-token":"1a285cc2-4260-482a-bdd5-24d3348c4bb9","host":"localhost:3015","accept-encoding":"gzip, deflate, br","connection":"keep-alive","content-length":"673"}
+body=undefined
+param={}
+trace=BadRequestException: Expected double-quoted property name in JSON at position 672
+    at RoutesResolver.mapExternalException (C:\Users\pawinb\Desktop\Payment-gateway\pgw-transaction-nestjs\node_modules\@nestjs\core\router\routes-resolver.js:100:24)
+    at callback (C:\Users\pawinb\Desktop\Payment-gateway\pgw-transaction-nestjs\node_modules\@nestjs\core\router\routes-resolver.js:86:24)
+    at Object.<anonymous> (C:\Users\pawinb\Desktop\Payment-gateway\pgw-transaction-nestjs\node_modules\@nestjs\core\router\router-proxy.js:20:23)
+    at handleError (C:\Users\pawinb\Desktop\Payment-gateway\pgw-transaction-nestjs\node_modules\@nestjs\platform-fastify\node_modules\fastify\lib\error-handler.js:64:18)
+    at onErrorHook (C:\Users\pawinb\Desktop\Payment-gateway\pgw-transaction-nestjs\node_modules\@nestjs\platform-fastify\node_modules\fastify\lib\reply.js:699:5)
+    at Reply.send (C:\Users\pawinb\Desktop\Payment-gateway\pgw-transaction-nestjs\node_modules\@nestjs\platform-fastify\node_modules\fastify\lib\reply.js:133:5)
+    at C:\Users\pawinb\Desktop\Payment-gateway\pgw-transaction-nestjs\node_modules\@nestjs\platform-fastify\node_modules\fastify\lib\contentTypeParser.js:176:15
+    at AsyncResource.runInAsyncScope (node:async_hooks:203:9)
+    at done (C:\Users\pawinb\Desktop\Payment-gateway\pgw-transaction-nestjs\node_modules\@nestjs\platform-fastify\node_modules\fastify\lib\contentTypeParser.js:173:14)
+    at defaultJsonParser (C:\Users\pawinb\Desktop\Payment-gateway\pgw-transaction-nestjs\node_modules\@nestjs\platform-fastify\node_modules\fastify\lib\contentTypeParser.js:273:14)
+

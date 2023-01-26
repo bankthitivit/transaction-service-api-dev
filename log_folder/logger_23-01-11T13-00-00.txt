@@ -1,0 +1,23 @@
+[2023-01-11T13:00:19.1919+07:00] [log level = error]:
+header = {"user-agent":"PostmanRuntime/7.30.0","accept":"*/*","postman-token":"fe48b12a-0df6-4712-881f-82e25e24dac8","host":"localhost:3015","accept-encoding":"gzip, deflate, br","connection":"keep-alive"}
+body=undefined
+param={}
+trace=HttpException: Http Exception
+    at BBLService.inquiry_bbl (C:\Users\pawinb\Desktop\Payment-gateway\pgw-transaction-nestjs\src\bbl\bbl.service.ts:170:13)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at paymentService.inquiryRequest (C:\Users\pawinb\Desktop\Payment-gateway\pgw-transaction-nestjs\src\app.service.ts:98:30)
+    at paymentController.inquiryRequest (C:\Users\pawinb\Desktop\Payment-gateway\pgw-transaction-nestjs\src\app.controller.ts:28:12)
+    at C:\Users\pawinb\Desktop\Payment-gateway\pgw-transaction-nestjs\node_modules\@nestjs\core\router\router-execution-context.js:46:28
+    at Object.<anonymous> (C:\Users\pawinb\Desktop\Payment-gateway\pgw-transaction-nestjs\node_modules\@nestjs\core\router\router-proxy.js:9:17)
+
+[2023-01-11T13:06:27.2727+07:00] [log level = error]:
+header = {"user-agent":"PostmanRuntime/7.30.0","accept":"*/*","postman-token":"f24273f1-79e2-47e9-8a6d-44e8035cbfe3","host":"localhost:3015","accept-encoding":"gzip, deflate, br","connection":"keep-alive"}
+body=undefined
+param={}
+trace=HttpException: Http Exception
+    at BBLService.inquiry_bbl (C:\Users\pawinb\Desktop\Payment-gateway\pgw-transaction-nestjs\src\bbl\bbl.service.ts:170:13)
+    at paymentService.inquiryRequest (C:\Users\pawinb\Desktop\Payment-gateway\pgw-transaction-nestjs\src\app.service.ts:98:30)
+    at paymentController.inquiryRequest (C:\Users\pawinb\Desktop\Payment-gateway\pgw-transaction-nestjs\src\app.controller.ts:28:12)
+    at C:\Users\pawinb\Desktop\Payment-gateway\pgw-transaction-nestjs\node_modules\@nestjs\core\router\router-execution-context.js:46:28
+    at Object.<anonymous> (C:\Users\pawinb\Desktop\Payment-gateway\pgw-transaction-nestjs\node_modules\@nestjs\core\router\router-proxy.js:9:17)
+

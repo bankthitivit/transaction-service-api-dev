@@ -1,0 +1,171 @@
+[2023-01-12T13:00:52.5252+07:00] [log level = error]:
+header = {"user-agent":"PostmanRuntime/7.30.0","accept":"*/*","postman-token":"1c579bed-a210-4542-aa26-91d78c80e9bc","host":"localhost:3015","accept-encoding":"gzip, deflate, br","connection":"keep-alive"}
+body=undefined
+param={"*":"v1/merchant/transaction/inquiryqr"}
+trace=NotFoundException: Cannot GET /v1/merchant/transaction/inquiryqr?transactionid=23011113001170900005&paymentchannel=THAIQR
+    at callback (C:\Users\pawinb\Desktop\Payment-gateway\pgw-transaction-nestjs\node_modules\@nestjs\core\router\routes-resolver.js:77:19)
+    at Object.<anonymous> (C:\Users\pawinb\Desktop\Payment-gateway\pgw-transaction-nestjs\node_modules\@nestjs\core\router\router-proxy.js:9:23)
+    at preHandlerCallback (C:\Users\pawinb\Desktop\Payment-gateway\pgw-transaction-nestjs\node_modules\@nestjs\platform-fastify\node_modules\fastify\lib\handleRequest.js:128:37)
+    at preValidationCallback (C:\Users\pawinb\Desktop\Payment-gateway\pgw-transaction-nestjs\node_modules\@nestjs\platform-fastify\node_modules\fastify\lib\handleRequest.js:112:5)
+    at handler (C:\Users\pawinb\Desktop\Payment-gateway\pgw-transaction-nestjs\node_modules\@nestjs\platform-fastify\node_modules\fastify\lib\handleRequest.js:76:7)
+    at handleRequest (C:\Users\pawinb\Desktop\Payment-gateway\pgw-transaction-nestjs\node_modules\@nestjs\platform-fastify\node_modules\fastify\lib\handleRequest.js:24:5)
+    at runPreParsing (C:\Users\pawinb\Desktop\Payment-gateway\pgw-transaction-nestjs\node_modules\@nestjs\platform-fastify\node_modules\fastify\lib\route.js:522:5)
+    at next (C:\Users\pawinb\Desktop\Payment-gateway\pgw-transaction-nestjs\node_modules\@nestjs\platform-fastify\node_modules\fastify\lib\hooks.js:168:7)
+    at Object.runMiddie (C:\Users\pawinb\Desktop\Payment-gateway\pgw-transaction-nestjs\node_modules\@fastify\middie\index.js:44:7)
+    at hookIterator (C:\Users\pawinb\Desktop\Payment-gateway\pgw-transaction-nestjs\node_modules\@nestjs\platform-fastify\node_modules\fastify\lib\hooks.js:246:10)
+
+[2023-01-12T13:00:54.5454+07:00] [log level = error]:
+header = {"user-agent":"PostmanRuntime/7.30.0","accept":"*/*","postman-token":"0b646391-4af5-4913-b808-97baf9e3c992","host":"localhost:3015","accept-encoding":"gzip, deflate, br","connection":"keep-alive"}
+body=undefined
+param={"*":"v1/merchant/transaction/inquiryqr"}
+trace=NotFoundException: Cannot GET /v1/merchant/transaction/inquiryqr?transactionid=23011113001170900005&paymentchannel=THAIQR
+    at callback (C:\Users\pawinb\Desktop\Payment-gateway\pgw-transaction-nestjs\node_modules\@nestjs\core\router\routes-resolver.js:77:19)
+    at Object.<anonymous> (C:\Users\pawinb\Desktop\Payment-gateway\pgw-transaction-nestjs\node_modules\@nestjs\core\router\router-proxy.js:9:23)
+    at preHandlerCallback (C:\Users\pawinb\Desktop\Payment-gateway\pgw-transaction-nestjs\node_modules\@nestjs\platform-fastify\node_modules\fastify\lib\handleRequest.js:128:37)
+    at preValidationCallback (C:\Users\pawinb\Desktop\Payment-gateway\pgw-transaction-nestjs\node_modules\@nestjs\platform-fastify\node_modules\fastify\lib\handleRequest.js:112:5)
+    at handler (C:\Users\pawinb\Desktop\Payment-gateway\pgw-transaction-nestjs\node_modules\@nestjs\platform-fastify\node_modules\fastify\lib\handleRequest.js:76:7)
+    at handleRequest (C:\Users\pawinb\Desktop\Payment-gateway\pgw-transaction-nestjs\node_modules\@nestjs\platform-fastify\node_modules\fastify\lib\handleRequest.js:24:5)
+    at runPreParsing (C:\Users\pawinb\Desktop\Payment-gateway\pgw-transaction-nestjs\node_modules\@nestjs\platform-fastify\node_modules\fastify\lib\route.js:522:5)
+    at next (C:\Users\pawinb\Desktop\Payment-gateway\pgw-transaction-nestjs\node_modules\@nestjs\platform-fastify\node_modules\fastify\lib\hooks.js:168:7)
+    at Object.runMiddie (C:\Users\pawinb\Desktop\Payment-gateway\pgw-transaction-nestjs\node_modules\@fastify\middie\index.js:44:7)
+    at hookIterator (C:\Users\pawinb\Desktop\Payment-gateway\pgw-transaction-nestjs\node_modules\@nestjs\platform-fastify\node_modules\fastify\lib\hooks.js:246:10)
+
+[2023-01-12T13:01:08.088+07:00] [log level = error]:
+header = {"user-agent":"PostmanRuntime/7.30.0","accept":"*/*","postman-token":"9a7bb471-272c-45da-85a6-a247d83b7125","host":"localhost:3015","accept-encoding":"gzip, deflate, br","connection":"keep-alive"}
+body=undefined
+param={}
+trace=HttpException: Http Exception
+    at BBLService.inquiry_bbl (C:\Users\pawinb\Desktop\Payment-gateway\pgw-transaction-nestjs\src\bbl\bbl.service.ts:170:13)
+    at paymentService.inquiryRequest (C:\Users\pawinb\Desktop\Payment-gateway\pgw-transaction-nestjs\src\app.service.ts:98:30)
+    at paymentController.inquiryRequest (C:\Users\pawinb\Desktop\Payment-gateway\pgw-transaction-nestjs\src\app.controller.ts:28:12)
+    at C:\Users\pawinb\Desktop\Payment-gateway\pgw-transaction-nestjs\node_modules\@nestjs\core\router\router-execution-context.js:46:28
+    at Object.<anonymous> (C:\Users\pawinb\Desktop\Payment-gateway\pgw-transaction-nestjs\node_modules\@nestjs\core\router\router-proxy.js:9:17)
+
+[2023-01-12T13:07:02.022+07:00] [log level = error]:
+header = {"user-agent":"PostmanRuntime/7.30.0","accept":"*/*","postman-token":"a7aef5a8-5598-4f7e-8f43-51afe44347f3","host":"localhost:3015","accept-encoding":"gzip, deflate, br","connection":"keep-alive"}
+body=undefined
+param={}
+trace=HttpException: Http Exception
+    at BBLService.inquiry_bbl (C:\Users\pawinb\Desktop\Payment-gateway\pgw-transaction-nestjs\src\bbl\bbl.service.ts:170:13)
+    at paymentService.inquiryRequest (C:\Users\pawinb\Desktop\Payment-gateway\pgw-transaction-nestjs\src\app.service.ts:103:30)
+    at paymentController.inquiryRequest (C:\Users\pawinb\Desktop\Payment-gateway\pgw-transaction-nestjs\src\app.controller.ts:28:12)
+    at C:\Users\pawinb\Desktop\Payment-gateway\pgw-transaction-nestjs\node_modules\@nestjs\core\router\router-execution-context.js:46:28
+    at Object.<anonymous> (C:\Users\pawinb\Desktop\Payment-gateway\pgw-transaction-nestjs\node_modules\@nestjs\core\router\router-proxy.js:9:17)
+
+[2023-01-12T13:07:29.2929+07:00] [log level = error]:
+header = {"user-agent":"PostmanRuntime/7.30.0","accept":"*/*","postman-token":"24f18998-bfaf-4df2-951f-50091ed6de9d","host":"localhost:3015","accept-encoding":"gzip, deflate, br","connection":"keep-alive"}
+body=undefined
+param={}
+trace=HttpException: Http Exception
+    at BBLService.inquiry_bbl (C:\Users\pawinb\Desktop\Payment-gateway\pgw-transaction-nestjs\src\bbl\bbl.service.ts:170:13)
+    at paymentService.inquiryRequest (C:\Users\pawinb\Desktop\Payment-gateway\pgw-transaction-nestjs\src\app.service.ts:103:30)
+    at paymentController.inquiryRequest (C:\Users\pawinb\Desktop\Payment-gateway\pgw-transaction-nestjs\src\app.controller.ts:28:12)
+    at C:\Users\pawinb\Desktop\Payment-gateway\pgw-transaction-nestjs\node_modules\@nestjs\core\router\router-execution-context.js:46:28
+    at Object.<anonymous> (C:\Users\pawinb\Desktop\Payment-gateway\pgw-transaction-nestjs\node_modules\@nestjs\core\router\router-proxy.js:9:17)
+
+[2023-01-12T13:07:56.5656+07:00] [log level = error]:
+header = {"user-agent":"PostmanRuntime/7.30.0","accept":"*/*","postman-token":"a070c83b-fcf2-4a29-b5e2-1e9074b39a7c","host":"localhost:3015","accept-encoding":"gzip, deflate, br","connection":"keep-alive"}
+body=undefined
+param={}
+trace=HttpException: Http Exception
+    at BBLService.inquiry_bbl (C:\Users\pawinb\Desktop\Payment-gateway\pgw-transaction-nestjs\src\bbl\bbl.service.ts:168:13)
+    at runNextTicks (node:internal/process/task_queues:60:5)
+    at listOnTimeout (node:internal/timers:533:9)
+    at processTimers (node:internal/timers:507:7)
+    at paymentService.inquiryRequest (C:\Users\pawinb\Desktop\Payment-gateway\pgw-transaction-nestjs\src\app.service.ts:103:30)
+    at paymentController.inquiryRequest (C:\Users\pawinb\Desktop\Payment-gateway\pgw-transaction-nestjs\src\app.controller.ts:28:12)
+    at C:\Users\pawinb\Desktop\Payment-gateway\pgw-transaction-nestjs\node_modules\@nestjs\core\router\router-execution-context.js:46:28
+    at Object.<anonymous> (C:\Users\pawinb\Desktop\Payment-gateway\pgw-transaction-nestjs\node_modules\@nestjs\core\router\router-proxy.js:9:17)
+
+[2023-01-12T13:08:12.1212+07:00] [log level = error]:
+header = {"user-agent":"PostmanRuntime/7.30.0","accept":"*/*","postman-token":"b058e6e5-f5d7-4211-801e-c780bc08380b","host":"localhost:3015","accept-encoding":"gzip, deflate, br","connection":"keep-alive"}
+body=undefined
+param={}
+trace=HttpException: Http Exception
+    at BBLService.inquiry_bbl (C:\Users\pawinb\Desktop\Payment-gateway\pgw-transaction-nestjs\src\bbl\bbl.service.ts:168:13)
+    at paymentService.inquiryRequest (C:\Users\pawinb\Desktop\Payment-gateway\pgw-transaction-nestjs\src\app.service.ts:103:30)
+    at paymentController.inquiryRequest (C:\Users\pawinb\Desktop\Payment-gateway\pgw-transaction-nestjs\src\app.controller.ts:28:12)
+    at C:\Users\pawinb\Desktop\Payment-gateway\pgw-transaction-nestjs\node_modules\@nestjs\core\router\router-execution-context.js:46:28
+    at Object.<anonymous> (C:\Users\pawinb\Desktop\Payment-gateway\pgw-transaction-nestjs\node_modules\@nestjs\core\router\router-proxy.js:9:17)
+
+[2023-01-12T13:08:56.5656+07:00] [log level = error]:
+header = {"user-agent":"PostmanRuntime/7.30.0","accept":"*/*","postman-token":"e2301a83-4b51-4130-b42f-d4d0b80f2e0d","host":"localhost:3015","accept-encoding":"gzip, deflate, br","connection":"keep-alive"}
+body=undefined
+param={}
+trace=HttpException: Http Exception
+    at BBLService.inquiry_bbl (C:\Users\pawinb\Desktop\Payment-gateway\pgw-transaction-nestjs\src\bbl\bbl.service.ts:168:13)
+    at paymentService.inquiryRequest (C:\Users\pawinb\Desktop\Payment-gateway\pgw-transaction-nestjs\src\app.service.ts:103:30)
+    at paymentController.inquiryRequest (C:\Users\pawinb\Desktop\Payment-gateway\pgw-transaction-nestjs\src\app.controller.ts:28:12)
+    at C:\Users\pawinb\Desktop\Payment-gateway\pgw-transaction-nestjs\node_modules\@nestjs\core\router\router-execution-context.js:46:28
+    at Object.<anonymous> (C:\Users\pawinb\Desktop\Payment-gateway\pgw-transaction-nestjs\node_modules\@nestjs\core\router\router-proxy.js:9:17)
+
+[2023-01-12T13:10:30.3030+07:00] [log level = error]:
+header = {"user-agent":"PostmanRuntime/7.30.0","accept":"*/*","postman-token":"fb6db11b-04aa-4156-afdb-419fe2153535","host":"localhost:3015","accept-encoding":"gzip, deflate, br","connection":"keep-alive"}
+body=undefined
+param={}
+trace=HttpException: Http Exception
+    at BBLService.inquiry_bbl (C:\Users\pawinb\Desktop\Payment-gateway\pgw-transaction-nestjs\src\bbl\bbl.service.ts:168:13)
+    at paymentService.inquiryRequest (C:\Users\pawinb\Desktop\Payment-gateway\pgw-transaction-nestjs\src\app.service.ts:101:30)
+    at paymentController.inquiryRequest (C:\Users\pawinb\Desktop\Payment-gateway\pgw-transaction-nestjs\src\app.controller.ts:28:12)
+    at C:\Users\pawinb\Desktop\Payment-gateway\pgw-transaction-nestjs\node_modules\@nestjs\core\router\router-execution-context.js:46:28
+    at Object.<anonymous> (C:\Users\pawinb\Desktop\Payment-gateway\pgw-transaction-nestjs\node_modules\@nestjs\core\router\router-proxy.js:9:17)
+
+[2023-01-12T13:14:06.066+07:00] [log level = error]:
+header = {"user-agent":"PostmanRuntime/7.30.0","accept":"*/*","postman-token":"d0e7e8f0-ea19-4506-ba64-030bff14ae4f","host":"localhost:3015","accept-encoding":"gzip, deflate, br","connection":"keep-alive"}
+body=undefined
+param={}
+trace=HttpException: Http Exception
+    at BBLService.inquiry_bbl (C:\Users\pawinb\Desktop\Payment-gateway\pgw-transaction-nestjs\src\bbl\bbl.service.ts:168:13)
+    at paymentService.inquiryRequest (C:\Users\pawinb\Desktop\Payment-gateway\pgw-transaction-nestjs\src\app.service.ts:101:30)
+    at paymentController.inquiryRequest (C:\Users\pawinb\Desktop\Payment-gateway\pgw-transaction-nestjs\src\app.controller.ts:28:12)
+    at C:\Users\pawinb\Desktop\Payment-gateway\pgw-transaction-nestjs\node_modules\@nestjs\core\router\router-execution-context.js:46:28
+    at Object.<anonymous> (C:\Users\pawinb\Desktop\Payment-gateway\pgw-transaction-nestjs\node_modules\@nestjs\core\router\router-proxy.js:9:17)
+
+[2023-01-12T13:15:55.5555+07:00] [log level = error]:
+header = {"user-agent":"PostmanRuntime/7.30.0","accept":"*/*","postman-token":"178188b8-7078-4c30-9778-2a59753ed4d8","host":"localhost:3015","accept-encoding":"gzip, deflate, br","connection":"keep-alive"}
+body=undefined
+param={}
+trace=BadRequestException: Bad Request Exception
+    at ValidationPipe.exceptionFactory (C:\Users\pawinb\Desktop\Payment-gateway\pgw-transaction-nestjs\node_modules\@nestjs\common\pipes\validation.pipe.js:90:20)
+    at ValidationPipe.transform (C:\Users\pawinb\Desktop\Payment-gateway\pgw-transaction-nestjs\node_modules\@nestjs\common\pipes\validation.pipe.js:66:30)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at resolveParamValue (C:\Users\pawinb\Desktop\Payment-gateway\pgw-transaction-nestjs\node_modules\@nestjs\core\router\router-execution-context.js:147:23)
+    at async Promise.all (index 0)
+    at pipesFn (C:\Users\pawinb\Desktop\Payment-gateway\pgw-transaction-nestjs\node_modules\@nestjs\core\router\router-execution-context.js:150:13)
+    at C:\Users\pawinb\Desktop\Payment-gateway\pgw-transaction-nestjs\node_modules\@nestjs\core\router\router-execution-context.js:37:30
+    at C:\Users\pawinb\Desktop\Payment-gateway\pgw-transaction-nestjs\node_modules\@nestjs\core\router\router-execution-context.js:46:28
+    at Object.<anonymous> (C:\Users\pawinb\Desktop\Payment-gateway\pgw-transaction-nestjs\node_modules\@nestjs\core\router\router-proxy.js:9:17)
+
+[2023-01-12T13:16:04.044+07:00] [log level = error]:
+header = {"user-agent":"PostmanRuntime/7.30.0","accept":"*/*","postman-token":"533c9567-f48b-4c4a-bb3f-1593fb0d47be","host":"localhost:3015","accept-encoding":"gzip, deflate, br","connection":"keep-alive"}
+body=undefined
+param={}
+trace=HttpException: Http Exception
+    at BBLService.inquiry_bbl (C:\Users\pawinb\Desktop\Payment-gateway\pgw-transaction-nestjs\src\bbl\bbl.service.ts:168:13)
+    at paymentService.inquiryRequest (C:\Users\pawinb\Desktop\Payment-gateway\pgw-transaction-nestjs\src\app.service.ts:101:30)
+    at paymentController.inquiryRequest (C:\Users\pawinb\Desktop\Payment-gateway\pgw-transaction-nestjs\src\app.controller.ts:28:12)
+    at C:\Users\pawinb\Desktop\Payment-gateway\pgw-transaction-nestjs\node_modules\@nestjs\core\router\router-execution-context.js:46:28
+    at Object.<anonymous> (C:\Users\pawinb\Desktop\Payment-gateway\pgw-transaction-nestjs\node_modules\@nestjs\core\router\router-proxy.js:9:17)
+
+[2023-01-12T13:16:35.3535+07:00] [log level = error]:
+header = {"user-agent":"PostmanRuntime/7.30.0","accept":"*/*","postman-token":"cb838e25-bd6a-4d86-898c-5c8eca39e89d","host":"localhost:3015","accept-encoding":"gzip, deflate, br","connection":"keep-alive"}
+body=undefined
+param={}
+trace=HttpException: Http Exception
+    at BBLService.inquiry_bbl (C:\Users\pawinb\Desktop\Payment-gateway\pgw-transaction-nestjs\src\bbl\bbl.service.ts:168:13)
+    at paymentService.inquiryRequest (C:\Users\pawinb\Desktop\Payment-gateway\pgw-transaction-nestjs\src\app.service.ts:101:30)
+    at paymentController.inquiryRequest (C:\Users\pawinb\Desktop\Payment-gateway\pgw-transaction-nestjs\src\app.controller.ts:28:12)
+    at C:\Users\pawinb\Desktop\Payment-gateway\pgw-transaction-nestjs\node_modules\@nestjs\core\router\router-execution-context.js:46:28
+    at Object.<anonymous> (C:\Users\pawinb\Desktop\Payment-gateway\pgw-transaction-nestjs\node_modules\@nestjs\core\router\router-proxy.js:9:17)
+
+[2023-01-12T13:24:34.3434+07:00] [log level = error]:
+header = {"user-agent":"PostmanRuntime/7.30.0","accept":"*/*","postman-token":"316eb2d0-611b-462c-b0c2-f2f04938e795","host":"localhost:3015","accept-encoding":"gzip, deflate, br","connection":"keep-alive"}
+body=undefined
+param={}
+trace=HttpException: Http Exception
+    at BBLService.inquiry_bbl (C:\Users\pawinb\Desktop\Payment-gateway\pgw-transaction-nestjs\src\bbl\bbl.service.ts:168:13)
+    at paymentService.inquiryRequest (C:\Users\pawinb\Desktop\Payment-gateway\pgw-transaction-nestjs\src\app.service.ts:101:30)
+    at paymentController.inquiryRequest (C:\Users\pawinb\Desktop\Payment-gateway\pgw-transaction-nestjs\src\app.controller.ts:28:12)
+    at C:\Users\pawinb\Desktop\Payment-gateway\pgw-transaction-nestjs\node_modules\@nestjs\core\router\router-execution-context.js:46:28
+    at Object.<anonymous> (C:\Users\pawinb\Desktop\Payment-gateway\pgw-transaction-nestjs\node_modules\@nestjs\core\router\router-proxy.js:9:17)
+

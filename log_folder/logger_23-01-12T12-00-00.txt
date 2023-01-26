@@ -1,0 +1,143 @@
+[2023-01-12T12:34:49.4949+07:00] [log level = error]:
+header = {"partnerid":"df90344b-d288-44ee-a44e-4962905c7243","nonce":"2022-12-06T12:30:00+07:00","authorization":"ZlE0T+c1mNkiauKrr3JS1h+kGFii4QVlpkCc3A3wPWQ=","content-type":"application/json","user-agent":"PostmanRuntime/7.30.0","accept":"*/*","postman-token":"8e2404da-98f8-4384-84c1-71f418381de5","host":"localhost:3015","accept-encoding":"gzip, deflate, br","connection":"keep-alive","content-length":"369"}
+body={"request_id":"0000000000000000201","request_datetime":"2022-01-11T12:30:00+07:00","device_id":"RabbitMerchant_00700000010000100001","cashier_id":"00001","location_id":"00001","payment_channel":"THAIQR","currency":"THB","amount":"100.50","device_type":3,"notify_url":"https://gateway.api.rabbit.co.th/mockup/callback"}
+param={"*":"v1/merchant/transaction/getqr"}
+trace=NotFoundException: Cannot POST /v1/merchant/transaction/getqr
+    at callback (C:\Users\pawinb\Desktop\Payment-gateway\pgw-transaction-nestjs\node_modules\@nestjs\core\router\routes-resolver.js:77:19)
+    at Object.<anonymous> (C:\Users\pawinb\Desktop\Payment-gateway\pgw-transaction-nestjs\node_modules\@nestjs\core\router\router-proxy.js:9:23)
+    at preHandlerCallback (C:\Users\pawinb\Desktop\Payment-gateway\pgw-transaction-nestjs\node_modules\@nestjs\platform-fastify\node_modules\fastify\lib\handleRequest.js:128:37)
+    at preValidationCallback (C:\Users\pawinb\Desktop\Payment-gateway\pgw-transaction-nestjs\node_modules\@nestjs\platform-fastify\node_modules\fastify\lib\handleRequest.js:112:5)
+    at handler (C:\Users\pawinb\Desktop\Payment-gateway\pgw-transaction-nestjs\node_modules\@nestjs\platform-fastify\node_modules\fastify\lib\handleRequest.js:76:7)
+    at C:\Users\pawinb\Desktop\Payment-gateway\pgw-transaction-nestjs\node_modules\@nestjs\platform-fastify\node_modules\fastify\lib\contentTypeParser.js:179:9
+    at AsyncResource.runInAsyncScope (node:async_hooks:203:9)
+    at done (C:\Users\pawinb\Desktop\Payment-gateway\pgw-transaction-nestjs\node_modules\@nestjs\platform-fastify\node_modules\fastify\lib\contentTypeParser.js:173:14)
+    at defaultJsonParser (C:\Users\pawinb\Desktop\Payment-gateway\pgw-transaction-nestjs\node_modules\@nestjs\platform-fastify\node_modules\fastify\lib\contentTypeParser.js:275:5)
+    at Parser.fn (C:\Users\pawinb\Desktop\Payment-gateway\pgw-transaction-nestjs\node_modules\@nestjs\platform-fastify\adapters\fastify-adapter.js:287:13)
+
+[2023-01-12T12:34:56.5656+07:00] [log level = error]:
+header = {"partnerid":"df90344b-d288-44ee-a44e-4962905c7243","nonce":"2022-12-06T12:30:00+07:00","authorization":"ZlE0T+c1mNkiauKrr3JS1h+kGFii4QVlpkCc3A3wPWQ=","content-type":"application/json","user-agent":"PostmanRuntime/7.30.0","accept":"*/*","postman-token":"80badeb9-fe25-4ebb-83c1-8e92b6506a82","host":"localhost:3015","accept-encoding":"gzip, deflate, br","connection":"keep-alive","content-length":"369"}
+body={"request_id":"0000000000000000201","request_datetime":"2022-01-11T12:30:00+07:00","device_id":"RabbitMerchant_00700000010000100001","cashier_id":"00001","location_id":"00001","payment_channel":"THAIQR","currency":"THB","amount":"100.50","device_type":3,"notify_url":"https://gateway.api.rabbit.co.th/mockup/callback"}
+param={}
+trace=HttpException: Http Exception
+    at AuthenticationService.hmac_auth_permission (C:\Users\pawinb\Desktop\Payment-gateway\pgw-transaction-nestjs\src\authentication\authentication.service.ts:33:19)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at paymentService.paymentRequest (C:\Users\pawinb\Desktop\Payment-gateway\pgw-transaction-nestjs\src\app.service.ts:45:9)
+    at paymentController.payment (C:\Users\pawinb\Desktop\Payment-gateway\pgw-transaction-nestjs\src\app.controller.ts:22:12)
+    at C:\Users\pawinb\Desktop\Payment-gateway\pgw-transaction-nestjs\node_modules\@nestjs\core\router\router-execution-context.js:46:28
+    at Object.<anonymous> (C:\Users\pawinb\Desktop\Payment-gateway\pgw-transaction-nestjs\node_modules\@nestjs\core\router\router-proxy.js:9:17)
+
+[2023-01-12T12:35:58.5858+07:00] [log level = error]:
+header = {"partnerid":"df90344b-d288-44ee-a44e-4962905c7243","nonce":"2022-12-06T12:30:00+07:00","authorization":"ZlE0T+c1mNkiauKrr3JS1h+kGFii4QVlpkCc3A3wPWQ=","content-type":"application/json","user-agent":"PostmanRuntime/7.30.0","accept":"*/*","postman-token":"51513d5f-d93a-4394-a805-60c82e54c81f","host":"localhost:3015","accept-encoding":"gzip, deflate, br","connection":"keep-alive","content-length":"369"}
+body={"request_id":"0000000000000000201","request_datetime":"2022-01-11T12:30:00+07:00","device_id":"RabbitMerchant_00700000010000100001","cashier_id":"00001","location_id":"00001","payment_channel":"THAIQR","currency":"THB","amount":"100.50","device_type":3,"notify_url":"https://gateway.api.rabbit.co.th/mockup/callback"}
+param={}
+trace=HttpException: Http Exception
+    at AuthenticationService.hmac_auth_permission (C:\Users\pawinb\Desktop\Payment-gateway\pgw-transaction-nestjs\src\authentication\authentication.service.ts:33:19)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at paymentService.paymentRequest (C:\Users\pawinb\Desktop\Payment-gateway\pgw-transaction-nestjs\src\app.service.ts:45:9)
+    at paymentController.payment (C:\Users\pawinb\Desktop\Payment-gateway\pgw-transaction-nestjs\src\app.controller.ts:22:12)
+    at C:\Users\pawinb\Desktop\Payment-gateway\pgw-transaction-nestjs\node_modules\@nestjs\core\router\router-execution-context.js:46:28
+    at Object.<anonymous> (C:\Users\pawinb\Desktop\Payment-gateway\pgw-transaction-nestjs\node_modules\@nestjs\core\router\router-proxy.js:9:17)
+
+[2023-01-12T12:39:39.3939+07:00] [log level = error]:
+header = {"partnerid":"df90344b-d288-44ee-a44e-4962905c7243","nonce":"2022-12-06T12:30:00+07:00","authorization":"ZlE0T+c1mNkiauKrr3JS1h+kGFii4QVlpkCc3A3wPWQ=","content-type":"application/json","user-agent":"PostmanRuntime/7.30.0","accept":"*/*","postman-token":"f1578761-2533-41e0-9b12-918dfc043841","host":"localhost:3015","accept-encoding":"gzip, deflate, br","connection":"keep-alive","content-length":"369"}
+body={"request_id":"0000000000000000201","request_datetime":"2022-01-11T12:30:00+07:00","device_id":"RabbitMerchant_00700000010000100001","cashier_id":"00001","location_id":"00001","payment_channel":"THAIQR","currency":"THB","amount":"100.50","device_type":3,"notify_url":"https://gateway.api.rabbit.co.th/mockup/callback"}
+param={}
+trace=HttpException: Http Exception
+    at AuthenticationService.hmac_auth_permission (C:\Users\pawinb\Desktop\Payment-gateway\pgw-transaction-nestjs\src\authentication\authentication.service.ts:33:19)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at paymentService.paymentRequest (C:\Users\pawinb\Desktop\Payment-gateway\pgw-transaction-nestjs\src\app.service.ts:45:9)
+    at paymentController.payment (C:\Users\pawinb\Desktop\Payment-gateway\pgw-transaction-nestjs\src\app.controller.ts:22:12)
+    at C:\Users\pawinb\Desktop\Payment-gateway\pgw-transaction-nestjs\node_modules\@nestjs\core\router\router-execution-context.js:46:28
+    at Object.<anonymous> (C:\Users\pawinb\Desktop\Payment-gateway\pgw-transaction-nestjs\node_modules\@nestjs\core\router\router-proxy.js:9:17)
+
+[2023-01-12T12:44:17.1717+07:00] [log level = error]:
+header = {"partnerid":"df90344b-d288-44ee-a44e-4962905c7243","nonce":"2023-01-12T05:44:17.151Z","authorization":"LdMRVC3sxY/V8F5cp1un89oDPsPIhLoB8Bp2PeQfA94=","content-type":"application/json","user-agent":"PostmanRuntime/7.30.0","accept":"*/*","postman-token":"eb306be1-5e87-4d82-903e-3ca98d04a447","host":"localhost:3015","accept-encoding":"gzip, deflate, br","connection":"keep-alive","content-length":"369"}
+body={"request_id":"0000000000000000201","request_datetime":"2023-01-12T12:14:00+07:00","device_id":"RabbitMerchant_00700000010000100001","cashier_id":"00001","location_id":"00001","payment_channel":"THAIQR","currency":"THB","amount":"100.50","device_type":3,"notify_url":"https://gateway.api.rabbit.co.th/mockup/callback"}
+param={}
+trace=BadRequestException: Bad Request Exception
+    at ValidationPipe.exceptionFactory (C:\Users\pawinb\Desktop\Payment-gateway\pgw-transaction-nestjs\node_modules\@nestjs\common\pipes\validation.pipe.js:90:20)
+    at ValidationPipe.transform (C:\Users\pawinb\Desktop\Payment-gateway\pgw-transaction-nestjs\node_modules\@nestjs\common\pipes\validation.pipe.js:66:30)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at resolveParamValue (C:\Users\pawinb\Desktop\Payment-gateway\pgw-transaction-nestjs\node_modules\@nestjs\core\router\router-execution-context.js:147:23)
+    at async Promise.all (index 1)
+    at pipesFn (C:\Users\pawinb\Desktop\Payment-gateway\pgw-transaction-nestjs\node_modules\@nestjs\core\router\router-execution-context.js:150:13)
+    at C:\Users\pawinb\Desktop\Payment-gateway\pgw-transaction-nestjs\node_modules\@nestjs\core\router\router-execution-context.js:37:30
+    at C:\Users\pawinb\Desktop\Payment-gateway\pgw-transaction-nestjs\node_modules\@nestjs\core\router\router-execution-context.js:46:28
+    at Object.<anonymous> (C:\Users\pawinb\Desktop\Payment-gateway\pgw-transaction-nestjs\node_modules\@nestjs\core\router\router-proxy.js:9:17)
+
+[2023-01-12T12:44:33.3333+07:00] [log level = error]:
+header = {"partnerid":"df90344b-d288-44ee-a44e-4962905c7243","nonce":"2023-01-12T05:44:33.229Z","authorization":"KtC3YuyH4l4RNPwDrOwr5dsGJJ2L0PlBnMzg4ZYAUdQ=","content-type":"application/json","user-agent":"PostmanRuntime/7.30.0","accept":"*/*","postman-token":"8ba71be9-7134-4bef-ae02-ce8f1c823c3b","host":"localhost:3015","accept-encoding":"gzip, deflate, br","connection":"keep-alive","content-length":"369"}
+body={"request_id":"0000000000000000201","request_datetime":"2023-01-12T12:43:00+07:00","device_id":"RabbitMerchant_00700000010000100001","cashier_id":"00001","location_id":"00001","payment_channel":"THAIQR","currency":"THB","amount":"100.50","device_type":3,"notify_url":"https://gateway.api.rabbit.co.th/mockup/callback"}
+param={}
+trace=BadRequestException: Bad Request Exception
+    at ValidationPipe.exceptionFactory (C:\Users\pawinb\Desktop\Payment-gateway\pgw-transaction-nestjs\node_modules\@nestjs\common\pipes\validation.pipe.js:90:20)
+    at ValidationPipe.transform (C:\Users\pawinb\Desktop\Payment-gateway\pgw-transaction-nestjs\node_modules\@nestjs\common\pipes\validation.pipe.js:66:30)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at resolveParamValue (C:\Users\pawinb\Desktop\Payment-gateway\pgw-transaction-nestjs\node_modules\@nestjs\core\router\router-execution-context.js:147:23)
+    at async Promise.all (index 1)
+    at pipesFn (C:\Users\pawinb\Desktop\Payment-gateway\pgw-transaction-nestjs\node_modules\@nestjs\core\router\router-execution-context.js:150:13)
+    at C:\Users\pawinb\Desktop\Payment-gateway\pgw-transaction-nestjs\node_modules\@nestjs\core\router\router-execution-context.js:37:30
+    at C:\Users\pawinb\Desktop\Payment-gateway\pgw-transaction-nestjs\node_modules\@nestjs\core\router\router-execution-context.js:46:28
+    at Object.<anonymous> (C:\Users\pawinb\Desktop\Payment-gateway\pgw-transaction-nestjs\node_modules\@nestjs\core\router\router-proxy.js:9:17)
+
+[2023-01-12T12:45:07.077+07:00] [log level = error]:
+header = {"partnerid":"df90344b-d288-44ee-a44e-4962905c7243","nonce":"2023-01-12T05:45:07.648Z","authorization":"+urK0QXnlg7STq1TFFqxmRXx87nvudmE0Vuq6YtRLNA=","content-type":"application/json","user-agent":"PostmanRuntime/7.30.0","accept":"*/*","postman-token":"a67a20fa-428b-45f6-a0bd-6cbce35963c5","host":"localhost:3015","accept-encoding":"gzip, deflate, br","connection":"keep-alive","content-length":"368"}
+body={"request_id":"0000000000000000201","request_datetime":"2023-01-12T12:1:00+07:00","device_id":"RabbitMerchant_00700000010000100001","cashier_id":"00001","location_id":"00001","payment_channel":"THAIQR","currency":"THB","amount":"100.50","device_type":3,"notify_url":"https://gateway.api.rabbit.co.th/mockup/callback"}
+param={}
+trace=BadRequestException: Bad Request Exception
+    at ValidationPipe.exceptionFactory (C:\Users\pawinb\Desktop\Payment-gateway\pgw-transaction-nestjs\node_modules\@nestjs\common\pipes\validation.pipe.js:90:20)
+    at ValidationPipe.transform (C:\Users\pawinb\Desktop\Payment-gateway\pgw-transaction-nestjs\node_modules\@nestjs\common\pipes\validation.pipe.js:66:30)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at resolveParamValue (C:\Users\pawinb\Desktop\Payment-gateway\pgw-transaction-nestjs\node_modules\@nestjs\core\router\router-execution-context.js:147:23)
+    at async Promise.all (index 1)
+    at pipesFn (C:\Users\pawinb\Desktop\Payment-gateway\pgw-transaction-nestjs\node_modules\@nestjs\core\router\router-execution-context.js:150:13)
+    at C:\Users\pawinb\Desktop\Payment-gateway\pgw-transaction-nestjs\node_modules\@nestjs\core\router\router-execution-context.js:37:30
+    at C:\Users\pawinb\Desktop\Payment-gateway\pgw-transaction-nestjs\node_modules\@nestjs\core\router\router-execution-context.js:46:28
+    at Object.<anonymous> (C:\Users\pawinb\Desktop\Payment-gateway\pgw-transaction-nestjs\node_modules\@nestjs\core\router\router-proxy.js:9:17)
+
+[2023-01-12T12:45:15.1515+07:00] [log level = error]:
+header = {"partnerid":"df90344b-d288-44ee-a44e-4962905c7243","nonce":"2023-01-12T05:45:15.524Z","authorization":"DrRXBbnoe5InS7eIIaDZOo4eSr5Q/Z4NtGsK5s/zDvM=","content-type":"application/json","user-agent":"PostmanRuntime/7.30.0","accept":"*/*","postman-token":"e65f0ebe-4d5b-491f-808b-318965247093","host":"localhost:3015","accept-encoding":"gzip, deflate, br","connection":"keep-alive","content-length":"369"}
+body={"request_id":"0000000000000000201","request_datetime":"2023-01-12T12:10:00+07:00","device_id":"RabbitMerchant_00700000010000100001","cashier_id":"00001","location_id":"00001","payment_channel":"THAIQR","currency":"THB","amount":"100.50","device_type":3,"notify_url":"https://gateway.api.rabbit.co.th/mockup/callback"}
+param={}
+trace=BadRequestException: Bad Request Exception
+    at ValidationPipe.exceptionFactory (C:\Users\pawinb\Desktop\Payment-gateway\pgw-transaction-nestjs\node_modules\@nestjs\common\pipes\validation.pipe.js:90:20)
+    at ValidationPipe.transform (C:\Users\pawinb\Desktop\Payment-gateway\pgw-transaction-nestjs\node_modules\@nestjs\common\pipes\validation.pipe.js:66:30)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at resolveParamValue (C:\Users\pawinb\Desktop\Payment-gateway\pgw-transaction-nestjs\node_modules\@nestjs\core\router\router-execution-context.js:147:23)
+    at async Promise.all (index 1)
+    at pipesFn (C:\Users\pawinb\Desktop\Payment-gateway\pgw-transaction-nestjs\node_modules\@nestjs\core\router\router-execution-context.js:150:13)
+    at C:\Users\pawinb\Desktop\Payment-gateway\pgw-transaction-nestjs\node_modules\@nestjs\core\router\router-execution-context.js:37:30
+    at C:\Users\pawinb\Desktop\Payment-gateway\pgw-transaction-nestjs\node_modules\@nestjs\core\router\router-execution-context.js:46:28
+    at Object.<anonymous> (C:\Users\pawinb\Desktop\Payment-gateway\pgw-transaction-nestjs\node_modules\@nestjs\core\router\router-proxy.js:9:17)
+
+[2023-01-12T12:45:25.2525+07:00] [log level = error]:
+header = {"partnerid":"df90344b-d288-44ee-a44e-4962905c7243","nonce":"2023-01-12T05:45:25.889Z","authorization":"KGHUdVYQ4Xh/Pp6qqKVs9K7qhfiI3Gg6FEla41ljLsA=","content-type":"application/json","user-agent":"PostmanRuntime/7.30.0","accept":"*/*","postman-token":"b02e8d9a-29d7-4e58-bf51-fbaed5239e46","host":"localhost:3015","accept-encoding":"gzip, deflate, br","connection":"keep-alive","content-length":"368"}
+body={"request_id":"0000000000000000201","request_datetime":"2023-01-12T12:6:00+07:00","device_id":"RabbitMerchant_00700000010000100001","cashier_id":"00001","location_id":"00001","payment_channel":"THAIQR","currency":"THB","amount":"100.50","device_type":3,"notify_url":"https://gateway.api.rabbit.co.th/mockup/callback"}
+param={}
+trace=BadRequestException: Bad Request Exception
+    at ValidationPipe.exceptionFactory (C:\Users\pawinb\Desktop\Payment-gateway\pgw-transaction-nestjs\node_modules\@nestjs\common\pipes\validation.pipe.js:90:20)
+    at ValidationPipe.transform (C:\Users\pawinb\Desktop\Payment-gateway\pgw-transaction-nestjs\node_modules\@nestjs\common\pipes\validation.pipe.js:66:30)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at resolveParamValue (C:\Users\pawinb\Desktop\Payment-gateway\pgw-transaction-nestjs\node_modules\@nestjs\core\router\router-execution-context.js:147:23)
+    at async Promise.all (index 1)
+    at pipesFn (C:\Users\pawinb\Desktop\Payment-gateway\pgw-transaction-nestjs\node_modules\@nestjs\core\router\router-execution-context.js:150:13)
+    at C:\Users\pawinb\Desktop\Payment-gateway\pgw-transaction-nestjs\node_modules\@nestjs\core\router\router-execution-context.js:37:30
+    at C:\Users\pawinb\Desktop\Payment-gateway\pgw-transaction-nestjs\node_modules\@nestjs\core\router\router-execution-context.js:46:28
+    at Object.<anonymous> (C:\Users\pawinb\Desktop\Payment-gateway\pgw-transaction-nestjs\node_modules\@nestjs\core\router\router-proxy.js:9:17)
+
+[2023-01-12T12:45:48.4848+07:00] [log level = error]:
+header = {"partnerid":"df90344b-d288-44ee-a44e-4962905c7243","nonce":"2023-01-12T05:45:48.114Z","authorization":"dsxBHQdcqhhc7VYpLdt6E9UaDCiTqhPcta2IYg3i7YE=","content-type":"application/json","user-agent":"PostmanRuntime/7.30.0","accept":"*/*","postman-token":"df335601-b5e7-42c1-8fc4-3a30a54bcdc1","host":"localhost:3015","accept-encoding":"gzip, deflate, br","connection":"keep-alive","content-length":"366"}
+body=undefined
+param={}
+trace=BadRequestException: Expected ',' or '}' after property value in JSON at position 69
+    at RoutesResolver.mapExternalException (C:\Users\pawinb\Desktop\Payment-gateway\pgw-transaction-nestjs\node_modules\@nestjs\core\router\routes-resolver.js:100:24)
+    at callback (C:\Users\pawinb\Desktop\Payment-gateway\pgw-transaction-nestjs\node_modules\@nestjs\core\router\routes-resolver.js:86:24)
+    at Object.<anonymous> (C:\Users\pawinb\Desktop\Payment-gateway\pgw-transaction-nestjs\node_modules\@nestjs\core\router\router-proxy.js:20:23)
+    at handleError (C:\Users\pawinb\Desktop\Payment-gateway\pgw-transaction-nestjs\node_modules\@nestjs\platform-fastify\node_modules\fastify\lib\error-handler.js:64:18)
+    at onErrorHook (C:\Users\pawinb\Desktop\Payment-gateway\pgw-transaction-nestjs\node_modules\@nestjs\platform-fastify\node_modules\fastify\lib\reply.js:699:5)
+    at Reply.send (C:\Users\pawinb\Desktop\Payment-gateway\pgw-transaction-nestjs\node_modules\@nestjs\platform-fastify\node_modules\fastify\lib\reply.js:133:5)
+    at C:\Users\pawinb\Desktop\Payment-gateway\pgw-transaction-nestjs\node_modules\@nestjs\platform-fastify\node_modules\fastify\lib\contentTypeParser.js:176:15
+    at AsyncResource.runInAsyncScope (node:async_hooks:203:9)
+    at done (C:\Users\pawinb\Desktop\Payment-gateway\pgw-transaction-nestjs\node_modules\@nestjs\platform-fastify\node_modules\fastify\lib\contentTypeParser.js:173:14)
+    at defaultJsonParser (C:\Users\pawinb\Desktop\Payment-gateway\pgw-transaction-nestjs\node_modules\@nestjs\platform-fastify\node_modules\fastify\lib\contentTypeParser.js:273:14)
+
